@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 50),
             DrawerButton(
-              text: 'Puntos de Recompensa',
+              text: 'Menu general',
               onPressed: () {
                 // Agrega tu acción para Button 1 aquí
                 Navigator.pop(context); // Cierra el cajón
@@ -50,7 +50,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 50), // Ajusta el espaciado vertical
             DrawerButton(
-              text: 'Carrito de compra',
+              text: 'Busqueda de productos',
               onPressed: () {
                 // Agrega tu acción para Button 2 aquí
                 Navigator.pop(context); // Cierra el cajón
@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 50), // Ajusta el espaciado vertical
             DrawerButton(
-              text: 'Pago Total',
+              text: 'Carrito',
               onPressed: () {
                 // Agrega tu acción para Button 3 aquí
                 Navigator.pop(context); // Cierra el cajón
@@ -67,7 +67,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 50),
             // Ajusta el espaciado vertical
             DrawerButton(
-              text: 'Encuesta Iconn',
+              text: 'Pago total',
               onPressed: () {
                 // Agrega tu acción para Button 4 aquí
                 Navigator.pop(context); // Cierra el cajón
